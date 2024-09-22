@@ -9,6 +9,6 @@
 5. log-sum形式の尤度=ELBO + KL情報量
 6. KL情報量の最小化は, ELBO最大化. つまり log-sum形式の尤度=ELBO( $\theta_{old}$ ) 
 7. 潜在変数zの確率分布 $q(z)$ を 厄介な確率分布 $q(z | x)$ に近づけることが, EMアルゴリズム.
-8. 負担度: $q(z^{k} | x^{n})$
+8. 負担度: $q(z^{k} | x) = \sum_{n=1}^{N}q(z^{k} | x^{n})$
 9. VAE (Variational Auto Encoder)
 10. 拡散モデル
