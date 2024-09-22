@@ -1,4 +1,4 @@
-# Book_ZeroDeepLearning6
+# Book_ZeroDeepLearning5
 # ゼロから始めるDL (生成モデル編)
 
 ## 内容
